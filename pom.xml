@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.jumper.learning</groupId>
-    <artifactId>spring-bone</artifactId>
+    <artifactId>jumper-bone</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
