@@ -44,7 +44,7 @@ public class GracefulShutdownHandler implements WebServerFactoryCustomizer<Tomca
          * 会接受客户端的连接，但是不进行请求处理。直到connector 的 threadPool 调用 terminal 方法。客户端会一直等待，然后connection reset by peer
          */
         connector.pause();
-
+//connector.setMaxPostSize();
         LOGGER.info("Connector has been paused...");
         Executor executor = connector.getProtocolHandler().getExecutor();
         LOGGER.info(executor.getClass().getName());
